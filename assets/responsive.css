@@ -1,0 +1,16 @@
+@media screen and (min-width: 480px) {
+}
+
+@media screen and (min-width: 660px) {
+    canvas {
+        visibility: visible;
+        display: inline-block;
+        margin: 25px 0;
+        padding: 0;
+    }
+
+    #too-small {
+        visibility: hidden;
+        display: none;
+    }
+}

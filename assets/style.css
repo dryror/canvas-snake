@@ -1,0 +1,88 @@
+/***************************************
+COLOR AND FONT
+***************************************/
+
+/* Color pallet - http://www.colourlovers.com/palette/1168828/lemon_sky */
+
+body {
+    font-family: "Helvetica", "Open-Sans", sans-serif;
+    font-weight: 300;
+    color: #535353;
+}
+
+.main-header {
+    background-color: #00d5ff;
+    border-bottom: solid 10px #00BDFF;
+}
+
+.main-header h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 2.75em;
+}
+
+section h2 {
+    font-size: 1.125em;
+    font-weight: 400;
+}
+
+
+
+/***************************************
+HEADER
+***************************************/
+
+.main-header {
+    text-align: center;
+    margin: 0;
+}
+
+.main-header h1 {
+    margin: 0;
+    padding: 25px 0;
+}
+
+
+
+/***************************************
+CONTENT
+***************************************/
+
+section {
+    max-width: 940px;
+    margin: 50px auto 0;
+    width: 90%;
+    text-align: center;
+}
+
+section h2 {
+    margin: 0;
+    padding: 0;
+}
+
+section p {
+    text-align: left;
+}
+
+canvas {
+    visibility: hidden;
+    display: none;
+}
+
+#too-small {
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+/***************************************
+FOOTER
+***************************************/
+
+footer {
+    max-width: 940px;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
